@@ -1,0 +1,9 @@
+/* CSS 주석 */
+h2{ /* 선택자(Selector) */
+    color : purple; /* 속성값 */
+    /* 스타일속성(property), CSS 속성 */
+}
+p{
+    color : green;
+    width : 300px;
+}

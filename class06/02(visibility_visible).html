@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            display: inline-block;
+            background-color: aqua;
+            width: 180px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+        }
+        span:hover {visibility: hidden;}
+    </style>
+</head>
+<body>
+    <!--style 의 visibility 속성
+    visible > 보이기,
+    hidden > 숨기기(표시될 영역 유지),
+    display 속성 none > 표시될 영역도 없앰
+    -->
+    <span style="visibility: visible;">visibility: visible</span>
+    보이기
+    <span>visibility: visible</span><br><br>
+    <span style="visibility: hidden;">visibility: hidden</span>
+    숨기기
+    <span>visibility: visible</span><br><br>
+    <span style="display: none;">display: none</span>
+    없애기
+    <span>visibility: visible</span><br><br>
+</body>
+</html>

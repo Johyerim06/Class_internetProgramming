@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS 속성 -> property
+           HTML태그 속성 -> attribute */
+
+        /* text-decoration-line: none; - 밑줄 사라지게*/
+        a { text-decoration-line: none;}
+        
+        /* 태그명[속성명] -> 속성(attribute)선택자 
+           {}*/
+        a[target="_blank"] { color: violet;}
+        /* 대괄호 안에는 조건 입력, 중괄호 안에는 실행할 명령어*/
+        a[download] { color: green;}
+    </style>
+</head>
+<body>
+    <p><a href="http://macdonalds.co.kr">맥도날드 홈페이지</a></p>
+    <p><a href="http://google.com" target="_blank">구글 홈페이지(새창)</a></p>
+    <!--target="_blank" 새창에서 열기 -->
+    <p><a href="1.html" download>1.html 다운로드</a></p>
+</body>
+</html>

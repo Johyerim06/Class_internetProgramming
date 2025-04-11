@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<dl>
+<dt>와퍼</dt>
+<dd>7000원</dd>
+<dt>치즈와퍼</dt>
+<dd>8000원</dd>
+</dl>
+</body>
+</html>

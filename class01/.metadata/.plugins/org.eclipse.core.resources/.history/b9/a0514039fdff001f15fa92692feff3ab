@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+1<img src = "milk.png"><br>
+2<img src = "milk.png" width="23"><br>
+3<img src = "milk.png"><br>
+4<img src = "milk.png"><br>
+5<img src = "milk.png"><br>
+</body>
+</html>

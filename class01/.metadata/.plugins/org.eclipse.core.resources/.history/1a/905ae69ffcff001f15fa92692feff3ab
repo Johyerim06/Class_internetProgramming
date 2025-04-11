@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1><img src = "milk.png">우유</h1><!-- 이미지태그도 닫지 않아도 됨 -->
+<p><img src = "cola.png">콜라</p>
+<p><img src = "media/cider.png">사이다</p>
+<!-- "../"<- 현재경로 -->
+<!-- 이미지 파일 깨지면 파일명이나 경로가 잘못된 것 -->
+</body>
+</html>

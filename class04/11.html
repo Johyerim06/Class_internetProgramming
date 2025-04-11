@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 태그나 ID : 상태{} - 이런식으로 지정 [가상 클래스 선택자] */
+        p:hover { background-color: yellow;}
+        li:first-child{color: red;} /*li의 첫 자식 태그*/
+        li:nth-child(2) {color: green;} /* li의 n번째 자식 태그*/
+        li:last-child{color: blue;} /* li의 마지막 자식 태그 */
+        li::first-letter {color: black;} /* li의 첫글자 */
+    </style>
+</head>
+<body>
+    <h2>바나나</h2>
+    <p><img src = "banana.jpg" width = "120"></p>
+    <ul>
+        <li>노란색의 아열대 과일</li>
+        <li>지방이 없어 체중 조절에 좋음</li>
+        <li>식이섬유가 풍부해 주식 대용으로 적당</li>
+    </ul>
+</body>
+</html>

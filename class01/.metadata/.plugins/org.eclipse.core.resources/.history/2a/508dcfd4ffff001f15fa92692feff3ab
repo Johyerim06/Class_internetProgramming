@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p><a target="_self" href="https://www.lotteeatz.com/"><img src = "media\logo_lotte.png"></a></p>
+<!-- logo_lotte -->
+<p><a target="_self" href="https://www.burgerking.co.kr/home"><img src = "media\logo_bking.png"></a></p>
+<!-- media\logo_bking -->
+<p><a target="_self" href="https://www.mcdonalds.co.kr/kor/main.do"><img src = "media\logo_mac.png"></a></p>
+<!-- mac -->
+<p><a target="_self" href="https://momstouch.co.kr/"><img src = "media\logo_moms.png"></a></p>
+<!-- mom -->
+
+</body>
+</html>

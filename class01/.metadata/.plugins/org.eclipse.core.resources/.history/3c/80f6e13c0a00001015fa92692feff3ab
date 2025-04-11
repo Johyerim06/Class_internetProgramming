@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>표(table) 만들기</title>
+</head>
+<!-- Ctrl + Shift + F : 자동 들여쓰기 or 정렬 -->
+<body>
+	<table border="3">
+		<caption>버거킹 가격</caption>
+		<!-- 테이블 제목 -->
+		<thead>
+			<!-- 테이블 가장 상위 행, 컬럼명 -->
+			<tr>
+				<th>메뉴</th>
+				<th>가격</th>
+			</tr>
+		</thead>
+		<!-- 테이블 시작 -->
+		<tr>
+			<td>와퍼</td>
+			<td>7000원</td>
+		</tr>
+		<!-- 1행 -->
+		<tr>
+			<td>치즈와퍼</td>
+			<td>8000원</td>
+		</tr>
+		<!-- 2행 -->
+		<tr>
+			<td>불고기와퍼</td>
+			<td>7000원</td>
+		</tr>
+		<!-- 3행 -->
+		<!-- 테이블 끝 -->
+		<!-- tr : table row -->
+		<!-- td : table data -->
+		<tfoot>
+			<tr>
+				<th colspan = "2">22000원</th>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

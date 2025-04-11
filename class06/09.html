@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display : inline-block;
+            width: 100px;
+            height: 150px;
+            background: yellow;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        .a { overflow: visible;/*기본값, 글자가 많으면 박스를 넘어감*/}
+        .b { overflow: hidden;/*박스에서 벗어난 글자는 가려짐*/}
+        .c { overflow: scroll;/*위아래, 좌우 스크롤바*/}
+        .d { overflow: auto;/*스크롤 중 필요한것만 자동으로 생김*/}
+    </style>
+</head>
+<body>
+    <!-- 전체선택 단축키 CTRL + a -->
+    <!-- 자동정렬 단축키 SHIFT + ART + f-->
+    <div class="a">
+        프랑스 파리 안나톨 5가(5 Av.Anatole)에 위치한 탑이다. 
+        탑의 이름은 건축가 에펠의 이름을 딴것으로 1889년 3월 31일 준공해 
+        1889년 5월 6일에 개장했다. 
+    </div>
+    <div class="b">
+        프랑스 파리 안나톨 5가(5 Av.Anatole)에 위치한 탑이다. 
+        탑의 이름은 건축가 에펠의 이름을 딴것으로 1889년 3월 31일 준공해 
+        1889년 5월 6일에 개장했다. 
+    </div>
+    <div class="c">
+        프랑스 파리 안나톨 5가(5 Av.Anatole)에 위치한 탑이다. 
+        탑의 이름은 건축가 에펠의 이름을 딴것으로 1889년 3월 31일 준공해 
+        1889년 5월 6일에 개장했다. 
+    </div>
+    <div class="d">
+        프랑스 파리 안나톨 5가(5 Av.Anatole)에 위치한 탑이다. 
+        탑의 이름은 건축가 에펠의 이름을 딴것으로 1889년 3월 31일 준공해 
+        1889년 5월 6일에 개장했다. 
+    </div>
+</body>
+</html>

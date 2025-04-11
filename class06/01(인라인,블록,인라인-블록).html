@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*인라인 형식의 태그는 문자처럼 취급됨
+           -> 크기(height, width)를 지정해도 무시됨
+           -> margin을 auto를 할 경우 무시됨
+        */
+        span, div {
+            /*style의 display 속성으로 태그의 인라인/블록 속셩을 변경가능*/
+            /*inline-block은 lnline처럼 문자단위로 배치가 되고
+            block 처럼 크기를 지정할 수 있음*/
+            display: inline-block;
+            border: 1px solid black;
+            width: 150px;
+            height: 60px;
+            margin: auto;  /*중앙에 오게끔*/
+        }
+        span {background-color: aqua;}
+        div {background-color: antiquewhite;}
+
+    </style>
+</head>
+<body>
+    span 태그(인라인-블록):<br>
+    <p><span>span</span> <span>크기 지정 가능</span></p>
+    div 태그(인라인-블록):<br>
+    <p><div>div</div><div>한 줄에 표시</div></p>
+    인라인-블록은 문자속성:<br>
+    <p><div style="width: 300px; text-align: center">
+        <span>center</span>
+        </div>
+    </p>
+    <p>어디야</p>
+</body>
+</html>

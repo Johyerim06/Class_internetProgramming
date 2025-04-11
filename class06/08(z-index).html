@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            height:200px;
+        }
+        .a{
+            /*z-index 가 높을수록 사진이 앞으로 옴*/
+            top:100px;
+            left:100px;
+            z-index: 1000;
+        }
+        .b{
+            top:200px;
+            left:200px;
+            z-index: 100;
+        }
+        .c{
+            top:250px;
+            left:50px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <img src="에펠탑.jpg" class='a'>
+    <img src="루브르.jpg" class='b'>
+    <img src="개선문.jpg" class='c'>
+</body>
+</html>

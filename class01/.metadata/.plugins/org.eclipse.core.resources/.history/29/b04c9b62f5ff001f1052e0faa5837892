@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p>첫번째문단</p><!-- p태그로 문단(paragraph)을 지정-->
+<p>두번째문단</p>
+</body>
+</html>

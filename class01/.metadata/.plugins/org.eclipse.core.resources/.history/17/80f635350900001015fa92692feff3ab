@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>HTML5 Basic</h1>
+<h2>ITCoolbook-HanbitAcademy</h2>
+<hr>
+<p>Lorem ipsum ~~~~~~~~~</p>
+
+
+<p>3번문제</p>
+<p><i>밥버거</i></p>
+<p>&emsp;롯데리아의 빵 대신 밥 사용</p>
+
+
+<p>4번문제</p>
+<ul>
+	<li>따뜻한 음료</li>
+	<ol>
+		<li>커피</li>
+		<li>녹차</li>
+		<li>둥글레차</li>
+	</ol>
+</ul>
+<ul>
+	<li>차가운 음료</li>
+	<ol>
+		<li>커피</li>
+		<li>스무디</li>
+		<li>식혜</li>
+	</ol>
+</ul>
+
+<p>5번문제</p>
+<p><b>내가 좋아하는 버거 순위</b></p>
+<ol type ="I" start = "3">
+	<li>와퍼</li>
+	<li>빅맥</li>
+	<li>밥버거</li>
+</ol>
+
+<p>6번문제</p>
+
+	<table border="1">
+		<caption>버거세트 가격</caption>
+		<!-- 테이블 제목 -->
+		<thead>
+			<!-- 테이블 가장 상위 행, 컬럼명 -->
+			<tr>
+				<th>종류</th>
+				<th>가격</th>
+				<th>용량</th>
+				<th>비교</th>
+			</tr>
+		</thead>
+		<!-- 테이블 시작 -->
+		<tr>
+			<td>버거</td>
+			<td>4000</td>
+			<td>중</td>
+			<td>패티1장</td>
+		</tr>
+		<!-- 1행 -->
+		<tr>
+			<td>버거</td>
+			<td>5500</td>
+			<td>대</td>
+			<td>패티2장</td>
+		</tr>
+		<tfoot>
+			<tr>
+				<th>가격</th>
+				<th>9000</th>
+				<th></th>
+				<th>할인가격</th>
+				<!-- 열을합치는 속성 : rowspan -->
+			</tr>
+		</tfoot>
+	</table>
+
+<p>7번문제</p>
+
+	<table border="1">
+		<caption>버거세트 가격</caption>
+		<!-- 테이블 제목 -->
+		<thead>
+			<!-- 테이블 가장 상위 행, 컬럼명 -->
+			<tr>
+				<th>종류</th>
+				<th>가격</th>
+				<th>용량</th>
+				<th>비교</th>
+			</tr>
+		</thead>
+		<!-- 테이블 시작 -->
+		<tr>
+			<td>버거</td>
+			<td>4000</td>
+			<td>중</td>
+			<td>패티1장</td>
+		</tr>
+		<!-- 1행 -->
+		<tr>
+			<td>버거</td>
+			<td>5500</td>
+			<td>대</td>
+			<td>패티2장</td>
+		</tr>
+		<tfoot>
+			<tr>
+				<th>가격</th>
+				<th colspan = "3">9000(할인가격)</th>
+				<!-- 열을합치는 속성 : rowspan -->
+			</tr>
+		</tfoot>
+	</table>
+
+<p>8번문제</p>
+
+	<table border="1">
+		<caption>버거세트 가격</caption>
+		<!-- 테이블 제목 -->
+		<thead>
+			<!-- 테이블 가장 상위 행, 컬럼명 -->
+			<tr>
+				<th colspan = "6">한국의 차</th>
+			</tr>
+		</thead>
+		<!-- 테이블 시작 -->
+		<tr>
+			<td rowspan = "6">뿌리차</td>
+			<td>인삼차</td>
+			<td></td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+		<!-- 1행 -->
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td rowspan = "9">과일차</td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td rowspan = "9">잎차</td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td rowspan = "4">기타</td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td rowspan = "3">곡물차</td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>당귀차</td>
+			<td></td>
+			<td>수정과</td>
+			<td></td>
+			<td>뽕잎차</td>
+		</tr>
+
+		<tfoot>
+			<tr>
+				<th>가격</th>
+				<th colspan = "3">9000(할인가격)</th>
+				<!-- 열을합치는 속성 : rowspan -->
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>

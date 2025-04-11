@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            color : white;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 둥근부분의 반지름이 10px, 20px 이라는거임 클수록 둥금-->
+    <div style="border-radius: 10px;">10px</div>
+    <div style="border-radius: 20px 40px;">20px 40px</div>
+    <div style="border-radius: 20px 80px;">20px 80px</div>
+    <div style="border-radius: 50px 50px;">50%</div>
+    <div style="border-radius: 50%;">50%</div>
+    <!-- top-left top- right botton-right bottom-left-->
+    <div style="border-radius: 10px 20px 30px 40px;">50%</div>
+</body>
+</html>

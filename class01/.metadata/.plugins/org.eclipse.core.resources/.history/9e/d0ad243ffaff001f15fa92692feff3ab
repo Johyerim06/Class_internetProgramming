@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body> <!-- 텍스트 글씨체 꾸미기 -->
+<p><b>동국대학교</b><strong>동국대학교</strong></p>
+<!-- 진하게, 굵게 -->
+<p><i>동국대학교</i><en>동국대학교</en></p>
+<!-- 이탤릭, 기울이기 -->
+<p>동국대학교</p>
+<p>동국대학교</p>
+<p>동국대학교</p>
+<p>동국대학교</p>
+<p>동국대학교</p>
+<p>동국대학교</p>
+</body>
+</html>

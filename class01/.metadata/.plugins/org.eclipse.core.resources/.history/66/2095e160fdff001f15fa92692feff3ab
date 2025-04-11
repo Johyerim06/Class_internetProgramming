@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+1<img src = "milk.png"><br>
+2<img src = "milk.png" width="23"><br><!-- 가로크기 맞춰 비율 작아짐 -->
+3<img src = "milk.png" height="150"><br>
+4<img src = "milk.png" ><br>
+5<img src = "milk.png" alt="대체문자"><br>
+</body>
+</html>

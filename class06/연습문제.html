@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <style>
+    .Q1 span, .Q1 div{
+        display: inline-block;
+        border: 1px solid black;
+        width: 150px;
+        height: 60px;
+        margin: auto;  /*중앙에 오게끔*/
+        background-color: antiquewhite;
+    }
+    .Q2 img { border: 5px solid #8dc; }
+    .Q2 img {
+        width: 150px;
+        height: 100px;
+        background: #ffe;
+        border: 1px solid #663;
+    }
+    .Q2 .relative-img {
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+    .Q3 img { 
+        width: 50px;
+        height: 30px;
+        border: 5px solid #8dc; }
+    .Q3 div {
+        width: 500px;
+        height: 300px;
+        background: #ffe;
+        border: 1px solid #663;
+    }
+    .Q3 .absolute-img{
+            position: absolute;
+            top: 50px;
+            left: 30px;  
+    }
+    .Q4 div {
+        width: 250px;
+        background: #ffe;
+        border: 1px solid #9cc;
+        padding: 10px;
+    }
+
+    .Q5 > .a{
+        display: inline-block;
+        width: 100px;
+        height: 150px;
+        overflow: scroll;
+        border: 1px solid black;
+    }
+    .Q5 > .b{
+        display: inline-block;
+        width: 100px;
+        height: 150px;
+        overflow: auto;
+        border: 1px solid black;
+    }
+    .Q6 {
+        width: 400px;
+        height: 50px;
+        background-color: #d9fbfd;
+        padding: 10px;
+        margin: 10px;
+    }
+    .Q6 .list-bar li{
+        
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+ </style>
+</head>
+<div class="Q1">
+<body style="font-size: 20px; font-weight: bold">
+ span 태그(인라인-블록):<br>
+ <p><span>span</span> <span>크기 지정 가능</span></p>
+ div 태그(인라인-블록):<br>
+ <p><div>div</div> <div>한 줄에 표시</div></p>
+</div>
+
+<div class="Q2">
+    <div>
+        <img src="H.png">
+        <img src="T.png" class="relative-img">
+        <img src="M.png">
+        <img src="L.png" class="relative-img">
+    </div>
+    <h3>.relative-img: top 50px; left: 30px;</h3>
+</div>
+
+<div class="Q3">
+    <div>
+    <img src="H.png">
+    <img src="T.png" class="absolute-img">
+    <img src="M.png">
+    <img src="L.png">
+    </div>
+    <h3>.absolute-img: top 50px; left: 30px;</h3>    
+</div>
+
+<div class="Q4">
+    <img src="에펠탑.jpg" style="height=80px; float:left;">
+    The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars
+    in Paris, France. Constructed from 1887, it is named after the engineer
+    Gustave Eiffel, whose company designed and built the tower. Locally
+    nicknamed "La dame de fer" (French for "Iron Lady").
+</div>
+<br><br><br><br><br><br><br><br>
+
+<div class="Q5">
+    <div class="a">
+        프랑스 파리 안나톨 5가(5 Av.Anatole)에 위치한 탑이다. 
+        탑의 이름은 건축가 에펠의 이름을 딴것으로 1889년 3월 31일 준공해 
+        1889년 5월 6일에 개장했다. 
+    </div>
+    <div class="b">
+        프랑스 파리 안나톨 5가(5 Av.Anatole)에 위치한 탑이다. 
+        탑의 이름은 건축가 에펠의 이름을 딴것으로 1889년 3월 31일 준공해 
+        1889년 5월 6일에 개장했다. 
+    </div>
+</div>
+
+<div class="Q6">
+    <ul class="list-bar">
+        <li>프랑스</li>
+        <li>이탈리아</li>
+        <li>체코</li>
+    </ul>
+</div>
+
+</body>
+</html>

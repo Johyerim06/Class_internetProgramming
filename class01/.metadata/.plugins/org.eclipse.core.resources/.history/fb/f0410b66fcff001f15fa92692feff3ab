@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1><img src = "milk.png">우유</h1><!-- 이미지태그도 닫지 않아도 됨 -->
+<p><img src = "cola.png">콜라</p>
+<p><img src = "../media/cider.png">사이다</p>
+</body>
+</html>

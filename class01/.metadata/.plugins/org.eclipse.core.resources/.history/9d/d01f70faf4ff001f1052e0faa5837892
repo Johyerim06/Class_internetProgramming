@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폰트 색상 변경</title>
+    <style>
+        h1 {
+            color: red; /* h1 태그의 글자 색을 빨간색으로 변경 */
+        }
+        p {
+            color: blue; /* p 태그의 글자 색을 파란색으로 변경 */
+        }
+    </style>
+</head>
+<body>
+    <h1>이 글자는 빨간색입니다!</h1>
+    <p>이 글자는 파란색입니다!</p>
+</body>
+</html>
