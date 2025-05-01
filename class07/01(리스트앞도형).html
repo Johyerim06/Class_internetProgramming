@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            font-size : 18px;
+            background-color: aqua;
+            padding: 10px; /* 리스트 안쪽 여백 */
+            margin: 10px;
+        }
+        .list-bar li{
+            display: inline-block;
+            list-style: none;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <!-- list-style-type 속성: unorder 리스트의 아이템 앞 도형을 지정-->
+        <!-- 기본값이 disc(속이 찬 동그라미), circle(속이 빈 동그라미), square
+         , decimal , low-alpha, upper-alpha(소문자 대문자 지정), low-roman, upper-roman -->
+        <li style="list-style-type: square;">프랑스</li>
+        <li style="list-style-type: circle;">이탈리아</li>
+        <li style="list-style: inside;">체코</li>
+        <li style="list-style: outside;">체코</li>
+        
+        <li style="list-style: disc inside;">체코</li>
+        <li style="list-style: decimal inside;">체코</li>
+        <li style="list-style: upper-alpha inside;">체코</li>
+        <li style="list-style: upper-roman inside;">체코</li>
+    </ul>
+    <br>
+    <ul class = "list-bar">
+        <li>프랑스</li>
+        <li>이탈리아</li>
+        <li>체코</li>
+    </ul>
+</body>
+</html>

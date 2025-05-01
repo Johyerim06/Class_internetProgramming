@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 400px;
+            height: 50px;
+            margin: 30px;/*여백*/
+            line-height: 50px;
+            text-align: center;
+            background-color: cyan;
+        }   
+    </style>
+</head>
+<body>
+    <!--box-shadow: 오른쪽위치 아래쪽위치-->
+    <div style="box-shadow: 10px 10px;">box-shadow</div>
+    <!--box-shadow: 오른쪽위치 아래쪽위치 흐린정도 그림자색상 -->
+    <div style="box-shadow: 10px 10px 5px gray;">box-shadow</div>
+    <!--box-shadow: 오른쪽위치 아래쪽위치 흐린정도 그림자확장(음수도 가능) 그림자색상 -->
+    <div style="box-shadow: 10px 10px 5px 10px gray;">box-shadow</div>
+    <div style="box-shadow: inset 10px 10px 5px 10px red;">box-shadow</div>
+    <div style="box-shadow: 5px 10px 5px red, 10px 5px 5px blue;">box-shadow</div>
+</body>
+</html>

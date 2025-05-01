@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 효과가 나타나는데 걸리는 시간을 지정, 단위는 s(초) ms(0.001초) */
+        .tr1{ transition: 2s;}
+        .tr1:hover{text-shadow: 7px 7px 8px blue;}
+        .tr2:hover{
+            transition: 2s;
+            text-shadow: 7px 7px 8px blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="tr1">마우스를 올려보세요</h1>
+    <br>
+    <h1 class="tr2">transition 위치변경</h1>
+</body>
+</html>

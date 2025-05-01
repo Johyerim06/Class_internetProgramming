@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes a{
+            0%, 100%{ transform: translateY(0px);}
+            50%{ transform: translateY(400px);}
+        }
+    </style>
+</head>
+<body>
+    <!-- animation: 키프레임이름 지속시간 반복횟수-->
+    <img src="사과.jpg" style="animation: a 3s 5">
+    <!-- linear 속성 추가하면 일정한 속도로 움직임-->
+    <img src="바나나.jpg" style="animation: a linear 3s 10">
+    <img src="오렌지.jpg" style="animation: a 3s infinite">
+    <!-- alternate 속성 추가하면 불규칙한 속도로 움직임-->
+    <img src="포도.jpg" style="animation: a alternate 3s 10">
+</body>
+</html>
