@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color:blue;
+        }
+        h2 {
+            color:red;
+        }
+        h3 {
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // 이름 - h1, 파란색 
+        // 나이 - h2, red  
+        // 신장, 체중 - h3, green
+        let name = prompt("이름을 입력하세요...");
+        let age = parseInt(prompt("나이를 입력하세요..."));
+        let height = parseFloat(prompt("신장을 입력하세요..."));
+        let weight = parseFloat(prompt("체중을 입력하세요..."));
+
+        document.write("<h1>"+ name + "님</h1>");
+        document.write("<h2>"+(age + 2) + "세</h2>");
+        document.write("<h3>"+(height + 5) + "cm</h3>");
+        document.write("<h3>"+(weight -5) + "kg</h3>");
+    </script>
+</body>
+</html>
