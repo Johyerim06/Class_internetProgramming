@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 변수에 저장되는 데이터 타입(자료형)
+        // 정수, 실수 -> number
+        // 문자열 -> string
+        // true, false -> 논리값(boolean)
+        // 자료가 저장되지 않은 경우 -> undefined
+        // 변수 여러개를 ,로 구분해서 동시에 선언가능
+        let a = 10, b = 3.14, c = "apple", d = true, e;
+        document.write( typeof a + "<br>" );
+        document.write( typeof b + "<br>" );
+        document.write( typeof c + "<br>" );
+        document.write( typeof d + "<br>" );
+        document.write( typeof e + "<br>" );
+        // 빈 변수를 만들 때는 undefined로 하는것 보단 null로 초기화하는 것을 추천
+        e = null; // null -> 비어있는 값을 의미하는 키워드
+        document.write( typeof e + "<br>" );
+    </script>
+</body>
+</html>
