@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 이름, 나이, 신장, 체중을 입력받아서 페이지에 출력
+        // 이름뒤에는 "님" 붙이기
+        // 나이는 +2를 하고 "세"붙이기
+        // 신장은 실수를 입력받아 +5를 하고 "cm"를 붙여 실수로 출력
+        // 체중은 실수로 입력받아 -5를 하고 "kg"을 붙이기
+        let name = prompt("이름을 입력하세요...");
+        let age = parseInt(prompt("나이를 입력하세요..."));
+        let height = parseFloat(prompt("신장을 입력하세요..."));
+        let weight = parseFloat(prompt("체중을 입력하세요..."));
+
+        document.write(name + "님<br>");
+        document.write((age + 2) + "세<br>");
+        document.write((height + 5) + "cm<br>");
+        document.write((weight -5) + "kg");
+    </script>
+</body>
+</html>
