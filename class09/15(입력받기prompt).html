@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = null;
+            // 함수이름(인수) -> function
+            // a = prompt(); ( )안을 비워도 됨
+            // 함수를 사용 -> 함수를 call(호출)하다고 표현
+        a = prompt("아무값이나 입력하세요..."); 
+            // prompt(박스안에 안내메시지를 지정) 함수 -> 입력을 받기 위한 프롬프트 박스를 표시함
+            // 입력받은 값을 String 타입으로 리턴함 ex) 100입력시 "100"으로 리턴
+        document.write(a + "<br>");
+            // 객체명.메서드이름(인수) -> method
+        document.write( typeof a ); // 자료타입 출력하기
+    </script>
+</body>
+</html>
