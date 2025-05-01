@@ -1,0 +1,1 @@
+document.write("외부파일에서 가져온 것<hr>");

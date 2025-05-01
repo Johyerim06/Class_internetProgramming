@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("내부자바스크립트로 작성한 것<hr>");
+    </script>
+    <script src="script01.js">
+        /*외부자바스크립트파일*/
+    </script>
+</head>
+<body>
+    <a href="#" onclick="document.write('onclick 태그의 자바스크립트')">
+        눌러보세요!
+    </a><hr>
+    <!-- 의미: 이 링크를 누르면 onclick 안에 있는 JavaScript 코드가 실행돼.
+
+    실행 결과: 페이지가 통째로 지워지고 "onclick 태그의 자바스크립트"라는 텍스트만 화면에 남음.
+    → 왜냐하면 document.write()는 현재 페이지를 덮어쓰기 때문이야!
+    
+    href="#"는 기본 링크 역할을 하지만 실제로 이동하지는 않음 (다만 누르면 페이지 맨 위로 스크롤됨). -->
+    <a href="javascript:alert('href 태그의 자바스크립트')">
+        안누르실거예요?
+    </a>
+    <!--의미: href 자체에 JavaScript 코드를 직접 넣은 형태야.
+
+    실행 결과: alert 창이 뜸.
+
+    javascript: 스킴을 사용해 직접 자바스크립트 코드 실행-->
+</body>
+</html>

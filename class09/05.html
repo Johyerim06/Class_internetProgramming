@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //변수명 -> identifier(식별자)
+        let app2le1 = 10; // 숫자를 포함할 수 있음
+        let APP2LE1 = 10; // 대소문자 구분을 함
+        document.write(app2le1+","+ APP2LE1);
+        // 변수 이름으로 사용할 수 없는 것들
+        // 1) 맨 앞에 숫자를 쓸 수 없음 let 1apple = 10;
+        // 2) 중간에 공백을 넣을 수도 없음 let app le = 10;
+        // 3) (_,$(두가지)을 제외한)특수문자를 사용할 수 없음 let apple?! = 10;
+        let app_le$ = 10;
+        // 4) 예약어(reserved keyword)는 사용할 수 없음 let var 
+        let 한글 = 10; // 한글을 변수명으로 사용가능
+        document.write(한글); // ""안에 있으면 문자열, 이외에는 변수명같은 코드로 식별함
+        document.write("한글"); // "" -> 문자열과 코드를 구분하는 기호
+
+    </script>
+</body>
+</html>

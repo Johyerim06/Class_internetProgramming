@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 변수의 종류를 지정하는 키워드
+        // var -> 과거에 사용하던 키워드
+        // let -> 현재 사용하는 키워드
+        // const -> 상수(constant), 한번 저장된 값을 바꿀 수 없음
+        const TEN = 10; //심볼릭 상수라고 부르기도 함
+        // c = 20; 
+
+        var a = 10; // 변수 a를 선언(declare)
+        //변수에 값을 최초로 저장 -> 변수를 초기화(initialize)
+        document.writeln(a); //write는 줄을 안바꿈, writeln은 줄을 바꿈
+        var a = 20; // 앞서 선언한 변수를 뒤에서 다시 선언 가능
+        document.writeln(a);
+
+        let b = 10; //let 키워드로 선언한 변수는 뒤에서 같은 이름으로 선언할 수 없음
+        // let b = 20;
+        b = 20; //이렇게 다른값을 넣는것은 가능
+    </script>
+</body>
+</html>
