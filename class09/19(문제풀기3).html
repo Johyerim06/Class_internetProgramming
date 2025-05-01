@@ -26,10 +26,16 @@
         let height = parseFloat(prompt("신장을 입력하세요..."));
         let weight = parseFloat(prompt("체중을 입력하세요..."));
 
-        document.write("<h1>"+ name + "님</h1>");
-        document.write("<h2>"+(age + 2) + "세</h2>");
-        document.write("<h3>"+(height + 5) + "cm</h3>");
-        document.write("<h3>"+(weight -5) + "kg</h3>");
+        document.write("<h1>" + name + "님</h1>");
     </script>
+    <h2>
+        <script>document.write(age + 2);</script>
+    </h2>
+    <h3>
+        <script>
+        document.write(height + 5 + "<br>");
+        document.write(weight -5);
+        </script>
+    </h3>
 </body>
 </html>
