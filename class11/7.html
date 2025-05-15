@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1~100 점수를 입력받아서 
+        //90점 이상이면 'A학점' 출력
+        //80점 이상이면 'B학점' 출력
+        //70점 이상이면 'C학점' 출력
+        //60점 이상이면 'D학점' 출력
+        //60점 미만이면 'F학점' 출력
+
+        let score = prompt("너의 점수를 입력하렴");
+        score = parseInt(score);
+        let grade = "";
+        // if문 -> 조건문 또는
+        // 분기문이라고 부르기도 함(코드의 실행흐름을 나눔)
+
+        if(score > 90){ grade = "A학점";} 
+        else if(score > 80){ grade = "B학점";} 
+        else if(score > 70){ grade = "C학점";}
+        else if(score > 60){ grade = "D학점";}
+        else { grade = "F학점";}
+
+        document.write(grade);
+
+    </script>
+</body>
+</html>

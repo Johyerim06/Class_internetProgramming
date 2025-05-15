@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //switch문 사용시 주의할점
+        let a = "apple";
+
+        switch(a){
+            // 레이블로 정수이외에 다른 타입의 값을 사용 가능
+            case 1.5: document.write('1.5'); break;
+            case "apple": document.write('1.6'); break;
+        }
+        // switch 문의 ()에는 조건식을 사용할 수 없음
+        // switch(a > 0){        }
+    </script>
+</body>
+</html>

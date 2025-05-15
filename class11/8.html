@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 4;
+
+        // switch( 변수 ){ case레이블 1: case 레이블 2: ... }
+        // -> 변수에 저장된 값에 해당하는 레이블로 이동한 뒤 그 위치부터 
+        //    코드를 실행
+        // -> switch문은 점프문의 일종이지만, 
+        //    break를 함께 사용할 경우 분기문처럼 쓸 수 있음
+
+        switch( a ){
+            case 1: //case 값: -> 레이블 : 코드에 위치를 지정정
+                document.write("짜장"); break; //블록에서 탈출하는 예약어
+            case 2:
+                document.write("짬뽕"); break;
+            case 3: case 4: case 5: // 레이블을 연이어 써도 상관없음
+                document.write("볶음밥"); break;
+            // 변수에 저장된 값에 해당하는 레이블이 없는 경우, 
+            // 기본적으로 이동하는 레이블
+            default: // 보통 switch문의 블록 끝에 작성
+                document.write("그밖에");
+        }
+    </script>
+</body>
+</html>

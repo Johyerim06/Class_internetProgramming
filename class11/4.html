@@ -10,11 +10,11 @@
         // 숫자를 입력받아서 0보다 크면 plus를 화면에 출력
         // 0이 입력되면 zero
         // 0보다 작으면 minus를 출력
-        let num = prompt("숫자를 입력하세요");
+        let num = parseInt(prompt("숫자를 입력하세요"));
 
         if  ( num > 0 ){
             document.write("plus");
-        } else if (num == 0) {
+        } else if ( num == 0 ) {
             document.write("zero");
         } else {
             document.write("minus");
