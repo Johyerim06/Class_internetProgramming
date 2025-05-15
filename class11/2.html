@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let drink = prompt("이거 마시면 사귀는거다!");
+        document.write("술마신다: "+drink+"<hr>");
+
+        // if문, 조건문
+        // if(조건식1){조건식 1이 참일때 실행할 코드}
+        // else if (조건식2) {조건식 1이 거짓이고 조건식 2가 참일때 실행할 코드드}
+        // else {조건식이 거짓일 때 실행할 코드}
+        if(drink == "yes"){
+            document.write("오늘부터 1일");
+        } else if(drink == "half" ){
+            document.write("오늘부터 0.5일");
+        }else if(drink == "quarter" ){
+            document.write("오늘부터 0.25일");
+        }else{ // 그밖에
+            document.write("헤어진다");
+        }
+    </script>
+</body>
+</html>
