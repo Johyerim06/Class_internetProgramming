@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 인수 
+        //minus1(10, 1) ex) 10 - 1 = 9
+
+        function minus1 (a, b){
+            // `백틱
+            // `템플릿 문자열` -> 빈칸과 같은 것을 사용 가능
+            document.write(a + ' - 1 = ' + (a - b)+'<br>');
+        }
+
+        
+        function minus2 (a, b){
+            // `백틱
+            // `템플릿 문자열` -> 빈칸과 같은 것을 사용 가능
+            document.write(`${a} + ${b} = ${a+b}<br>`);
+        }
+
+        function minus3 (a, b){
+            // 큰 수에서 작은 수 빼기
+            if (a> b){ document.write(`${a} - ${b} = ${a-b}<br>`); }
+            else if (b> a){ document.write(`${b} - ${a} = ${b-a}<br>`); }
+        }
+
+        let a = parseInt(prompt("숫자를 입력하세요"));
+        minus1(a, 1);
+        minus2 (2, 2);
+        
+        minus3(10,1);
+        minus3(1,10);
+
+
+    </script>
+</body>
+</html>

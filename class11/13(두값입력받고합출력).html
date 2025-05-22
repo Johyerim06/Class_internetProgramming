@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 10~99 까지의 합을 구하기
+        /*
+        let num = 10;
+        let total = 0;
+        while(num <= 99){
+            //루프안의 코드는 순서를 잘 고려해야 함
+            total = total + num;
+            num++;
+        }
+        document.write(total);
+        */
+
+        let num1 = parseInt(prompt("1번째 값을 입력하세요."));
+        let num2 = parseInt(prompt("2번째 값을 입력하세요."));
+        let total = 0;
+        while(num1 <= num2){
+            //루프안의 코드는 순서를 잘 고려해야 함
+            total = total + num1;
+            if(num1 != num2){
+                document.write(num1 + " + ");
+            }else {
+                document.write(num1 + " = " + total);
+            }
+            num1++;
+        }
+    </script>
+</body>
+</html>

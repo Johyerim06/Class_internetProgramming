@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1~6 숫자 2개의 조합을 순서대로 출력
+        // 무한루프를 사용할 것
+        // 6 6일 때 멈추기
+
+        // 코드 정렬 단축키 CTRL + K, F
+        let a=1, b=1;
+        while(true){
+            document.write(a+'\t '+b+"<br>");
+            if( a==6&& b ==6) break;
+            b++;
+            if( b > 6 ) { 
+                document.write('<hr>');
+                a++; b = 1 
+            }
+        }
+    </script>
+</body>
+</html>

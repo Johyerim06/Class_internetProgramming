@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //본인이름을 100회 출력하시오
+        /*
+        let my_name = "조혜림";
+        let count = 0;
+
+        while( count < 100 ){
+            document.write(my_name+"<br>");
+            count++;
+        }
+        */
+
+        // 10~90까지 출력하기
+        // 10 ~ 19까지 출력하기
+        // 20 ~29까지 줄바꿔서 출력
+
+        /*
+        let count = 10;
+
+        while( count <= 99 ){
+            if(count % 10 == 9) {
+                document.write(count+"<br>");
+            }else {
+                document.write(count+" ");
+            }
+            count++;
+        }
+            */
+
+        // 3, 6, 9가 포함된 숫자는 숫자대신 별 출력
+        let a = 10;
+
+        while( a <= 99 ){
+            let b = a % 10;
+            let c = parseInt(a / 10);
+
+            if(a % 10 == 0){
+                document.write("<br>");
+            }
+            if(b == 3 || b == 6 || b == 9 || c == 3 || c == 6 || c == 9){
+                document.write("⭐ ")
+            } else {
+                document.write(a+" ");
+            }
+            a++;
+        }
+
+        
+
+    </script>
+</body>
+</html>

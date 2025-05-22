@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // break -> 코드 블록에서 탈출, 반복을 중단
+        // continue -> 이후의 코드를 생략하고 다음 반복으로 이동 : 반복을 생략
+
+        let i, j;
+        for ( i = 1 ; i < 10; i++ ){
+            if (i ==5 ) break; // break를 만나면 for 블록을 탈출, 반복 중단
+            document.write(i+' ');
+        }
+
+        i = 1;
+        for ( j = 1 ; j < 10; j++ ){
+            for ( i = 1 ; i < 10; i++ ){
+                if (i ==5 ) break; // 이중 for문의 내부에서 break를 한 경우우, 
+                // 안쪽 루프만 반복 중단됨(외부는 반복 유지)
+                document.write('j='+j+' i='+i+' <br>');
+            }
+            document.write('<hr>');
+        }
+    </script>
+</body>
+</html>

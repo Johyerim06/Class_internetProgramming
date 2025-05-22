@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a" onclick="change()">Change Colors</h1>
+    <button id="b" onclick="change1()">red</button>
+    <button id="c" onclick="change2()">orange</button>
+    <button id="d" onclick="change3()">yellow</button>
+    <button id="e" onclick="change4()">blue</button>
+    <script>
+        function change() {
+            let a = document.getElementById("a");
+            a.style.background = "cyan";
+            a.style.color = "white";
+        }
+        function change1() {
+            let a = document.getElementById("b");
+            a.style.background = "red";
+        }
+        function change2() {
+            let a = document.getElementById("c");
+            a.style.background = "orange";
+        }
+        function change3() {
+            let a = document.getElementById("d");
+            a.style.background = "yellow";
+        }
+        function change4() {
+            let a = document.getElementById("e");
+            a.style.background = "blue";
+        }
+    </script>
+</body>
+</html>

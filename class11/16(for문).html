@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = 1; //시작값
+
+        while(a < 10){
+            document.write(a+"<br>");
+            a++; //증감식
+        }
+
+        // for( 시작값; 조건식; 증감식 ) { 반복할 코드 }
+        // 반복할 코드가 한 줄일 경우 {}를 생략가능
+        for( a = 1 ; a < 10 ; a++ ){
+            document.write(a+"<br>");
+        }
+
+        for( a = 10 ; a <= 99 ; a++ ){
+            document.write(a+" ");
+            if(a % 10 == 9) document.write("<br>");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function plus1(a, b){
+            let str = `${a} + ${b} = ${a+b}<br>`;
+            document.write(str);
+        }
+
+        function plus2(a, b){
+            let str = `${a} + ${b} = 은 귀요미<br>`;
+            document.write(str);
+        }
+
+        function plus3(a, b){
+            if( a!= b ) plus1(a, b);
+            else plus2(a, b);
+        }
+
+        plus3(1, 1);
+        plus3(1, 2);
+    </script>
+</body>
+</html>

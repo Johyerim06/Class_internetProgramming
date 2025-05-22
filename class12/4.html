@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // continue는 반복을 유지하지만, continue에서 다음 반복으로 이동함
+        // -> continue 이후의 루프안의 코드를 생략
+
+        let i, j;
+        for ( i = 1 ; i < 10; i++ ){
+            document.write('<br>continue 전');
+            if (i ==5 ) continue; // 반복중단 
+            document.write('continue후'+i);
+        }
+
+    </script>
+</body>
+</html>

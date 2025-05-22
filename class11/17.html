@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 다중 루프 -> 반복문 안에 또다른 반복문이 있는 형태의 구분
+        // 2중 for문
+        /*
+        for(let i = 0; i < 3 ; i++ ){
+            document.write("loop-i<br>");
+            for(let j = 0; j < 2 ; j++ ){
+                document.write("&nbsp&nbsp loop-j<br>");
+            }
+        }
+
+        document.write("<br><hr><br>")
+
+        for(let col = 0; col < 5 ; col++ ){
+            for(let row = 0; row < 5 ; row++ ){
+                document.write("⭐");
+            }
+            document.write("<br>");
+        }
+
+        document.write("<br><hr><br>")
+        */
+
+        let num = prompt("숫자를 입력하세요");
+
+        for(let col = 0; col < num ; col++ ){
+            for(let row = 0; row < num ; row++ ){
+                if(col == 0 || col == num-1||row == 0 || row == num-1){
+                    document.write("★");
+                } else {
+                    document.write("☆");
+                }
+            }
+            document.write("<br>");
+        }
+
+    </script>
+</body>
+</html>

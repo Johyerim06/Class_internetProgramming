@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function f1(a, b){
+            document.write('f1()<br>');
+            // return; -> return : 함수를 종료하는 예약어
+            document.write('f1()함수<br>');
+            // return "리턴값"; // return 반환값;
+            // 반환값(return value) -> 함수가 종료하면서 남기는 값
+            return 100; // 어떤 타입의 값이든지 가능함
+            return a + b; // 수식도 가능함
+        }
+
+        // minus4() 정의 : 두 인수의 차를 리턴
+        function minus4(a, b) {
+            return a-b;
+        }
+
+        // 이름이 없는 함수 : 함수의 리턴값이 저장되는 변수를 함수의 이름으로 대체함
+
+        let minus5 = function (a, b) { return a - b ; }
+
+        let result = minus5(1, 10);
+        document.write(result+'<br>');
+        // 9출력
+
+        result = minus4(10, 1);
+        document.write(result+'<br>');
+        //-9 출력
+
+        let a = f1();
+        document.write(a);
+        document.write(f1(3, 4));
+    </script>
+</body>
+</html>
