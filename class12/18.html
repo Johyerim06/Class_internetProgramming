@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //변수의 종류(사용 범위에 따른)
+        //지역변수 (local variable)
+        // -> 사용범위가 함수 내부, 함수를 벗어나면 소멸됨
+
+        let d = 4; //전역변수 - 함수 외부에서 선언한 변수
+        // -> 사용범위는 프로그램 전체, 함수 내외부에서 모두 사용 가능
+
+        function f(a, b){ // 매개변수 a, b -> 지역변수
+            let c = 3;  // 함수 내부에서 선언한 변수 -> 지역변수
+            document.write( a+ ' '+ b + ' '+ c + "<br>");
+            d = 5;
+            document.write(d);
+        }
+        f(1, 2);
+        // document.write( a+ ' '+ b + ' '+ c + "<br>");
+        document.write(d);
+    </script>
+</body>
+</html>
