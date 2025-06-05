@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 단어를 입력받아서 첫글자와 마지막글자는 대문자로 중간의 글자들은 소문자로 변환하여 출력
+        // (실행예) 단어 : banana - BananA
+        
+        let word = prompt("영어단어를 입력하세요");
+        let a = word[0].toUpperCase();
+        let b = word.slice(1,-1).toLowerCase();
+        let c = word[word.length-1].toUpperCase();
+        word = a + b + c ;
+        document.write(word);
+
+    </script>
+</body>
+</html>

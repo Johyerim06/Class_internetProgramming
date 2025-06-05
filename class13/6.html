@@ -12,9 +12,17 @@
         // 숫자가 입력되면 다음 코드로 넘어가도록, 문자가 입력되면 다시 입력받아야 됨
 
         let startnum, lastnum;
-        do {startnum = parseInt(prompt('시작값을 입력하세요'))} while(isNaN(startnum) == true);
-        do {lastnum = parseInt(prompt('마지막값을 입력하세요'))} while(isNaN(lastnum) == true);
         let arr = [];
+        do {startnum = prompt('시작값을 입력하세요');
+            lastnum = prompt('마지막값을 입력하세요')
+        } while(isNaN(startnum) == true || isNaN(lastnum) == true);
+        // start 가 end 보다 크면 두 값을 서로 바꾸기기
+
+    if (startnum > lastnum) {
+        let temp = startnum;
+        startnum = lastnum;
+        lastnum = temp;
+    }
 
         for(let i = startnum; i<=lastnum ; i++){
             arr.push(i);
