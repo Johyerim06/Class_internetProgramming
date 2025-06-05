@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //프롬프트로 시작값부터 끝값을 입력받아
+        // 시작값부터 끝값사이의 정수들로 배열을 생성하고 모두 출력하시오
+        // 숫자가 입력되면 다음 코드로 넘어가도록, 문자가 입력되면 다시 입력받아야 됨
+
+        let startnum, lastnum;
+        do {startnum = parseInt(prompt('시작값을 입력하세요'))} while(isNaN(startnum) == true);
+        do {lastnum = parseInt(prompt('마지막값을 입력하세요'))} while(isNaN(lastnum) == true);
+        let arr = [];
+
+        for(let i = startnum; i<=lastnum ; i++){
+            arr.push(i);
+        }
+        for(let i = 0; i<arr.length ; i++){
+            document.write(arr[i]+'<br>');
+        }
+    </script>
+</body>
+</html>

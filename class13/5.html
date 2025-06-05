@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr1 = [ 1, 2, 3 ];
+        let arr2 = [ 4, 5, 6 ];
+        
+        // 배열1.concat(배열2) -> 배열1에 배열 2를 합친 배열을 리턴
+        document.write(arr1.concat(arr2) + '<br>');
+        document.write(arr1 + '<br>'); // 원본이 바뀌지는 않음
+        arr1 = arr1.concat(arr2); // 변경을 원할 경우 재저장해야함
+        document.write(arr1 + '<br>');
+        // 배열명.indexOf(값) -> 값의 인덱스를 리턴
+        document.write(arr1.indexOf(3) + '<br>'); 
+        document.write(arr1.indexOf(7) + '<br>'); // 값이 배열에 없으면 -1 리턴
+        document.write(arr1.indexOf(8) + '<br>');
+
+        // 1 2 3 4 5 6 - > '1+2+3+4+5+6'
+        // 배열의 원소 사이에 특정 문자열을 추가하여 합친 문자열을 리턴
+        document.write(arr1.join("++"));
+        document.write(arr1 + '<br>');
+    </script>
+</body>
+</html>
